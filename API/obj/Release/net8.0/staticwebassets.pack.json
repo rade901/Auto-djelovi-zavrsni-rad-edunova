@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.2b13baa7dd4f54c9.eot"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.8a7cb27d142e3e19.ttf"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.cf011583fb81df9f.woff"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.da909aa098b0ee2d.svg"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.e9955780856cf8aa.woff2"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\main.da2f9de4c5659eb3.js",
+      "PackagePath": "staticwebassets\\main.da2f9de4c5659eb3.js"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\polyfills.51a46ea02b986886.js",
+      "PackagePath": "staticwebassets\\polyfills.51a46ea02b986886.js"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\runtime.726a12cf02269fc9.js",
+      "PackagePath": "staticwebassets\\runtime.726a12cf02269fc9.js"
+    },
+    {
+      "Id": "D:\\CSharp\\edunova\\AutoDijelovi\\API\\wwwroot\\styles.cbb1f75d36eb3268.css",
+      "PackagePath": "staticwebassets\\styles.cbb1f75d36eb3268.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
