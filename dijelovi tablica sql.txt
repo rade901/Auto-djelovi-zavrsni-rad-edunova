@@ -1,0 +1,39 @@
+Kodna stranica za server bazu
+SELECT name, collation_name FROM sys.databases;  
+GO  
+ALTER DATABASE db_a98acf_tjakopec  SET SINGLE_USER WITH 
+ROLLBACK IMMEDIATE;  
+GO  
+ALTER DATABASE db_a98acf_tjakopec COLLATE Croatian_CI_AS;  
+GO  
+ALTER DATABASE db_a98acf_tjakopec  SET MULTI_USER;  
+GO  
+SELECT name, collation_name FROM sys.databases;  
+GO 
+
+
+
+USE [AutoDijelovi]
+GO
+
+/****** Object:  Table [dbo].[Dijelovi]    Script Date: 14/05/2024 11:44:42 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Dijelovi](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Naziv] [nvarchar](max) NOT NULL,
+	[Sifra] [nvarchar](max) NOT NULL,
+	[Cijena] [float] NOT NULL,
+	[Proizvodac] [nvarchar](max) NOT NULL,
+ CONSTRAINT [PK_Dijelovi] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
